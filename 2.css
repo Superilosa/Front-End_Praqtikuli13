@@ -1,0 +1,172 @@
+.container{
+    padding: 10px 20px;
+}
+
+/* dropdown menu */
+.menu-line{
+    display: flex;
+    position: relative;
+    background-color: rgb(39, 39, 39);
+}
+.drop-head{
+    background-color: rgb(39, 39, 39);
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: white;
+    border-right: white 2px solid;
+}
+.drop-option{
+    display: block;
+    background-color: lightgray;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    color: black;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.drop-option:hover{
+    background-color: gray;
+}
+.drop-options{
+    display: none;
+    position: absolute;
+    top: 30px;
+}
+#drop-head1:hover + #drop-options1{
+    display: block;
+}
+#drop-head2:hover + #drop-options2{
+    display: block;
+}
+#drop-head3:hover + #drop-options3{
+    display: block;
+}
+#drop-head4:hover + #drop-options4{
+    display: block;
+}
+#drop-options1:hover{
+    display: block;
+}
+#drop-options2:hover{
+    display: block;
+}
+#drop-options3:hover{
+    display: block;
+}
+#drop-options4:hover{
+    display: block;
+}
+#drop-options2{
+    left: 132px;
+}
+#drop-options3{
+    left: calc(132px*2)
+}
+#drop-options4{
+    left: calc(132px*3)
+}
+
+/* top-bar */
+.top-bar{
+    height: 60px;
+    background-color: gainsboro;
+    margin-bottom: 10px;
+}
+.social-logos{
+    padding-top: 5px;
+    padding-left: 10px;
+    float: left;
+}
+.social-logos img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.authorization{
+    float: right;
+    display: flex;
+    padding-right: 23px;
+    line-height: 60px;
+}
+.authorization a{
+    text-transform:uppercase;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.authorization div{
+    margin: 15px 25px 0;
+    width: 2px;
+    background-color: white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 30px;
+}
+.authorization .login{
+    color: black;
+}
+.authorization .sign{
+    color: darkorange;
+}
+
+/* gallery */
+.content{
+    border: 2px dotted gray;
+    height: 580px;
+    margin-top: 20px;
+}
+.main-img{
+    width: 75%;
+    float: left;
+}
+.choice-imgs{
+    width: 25%;
+    float: right;
+}
+.big-img{
+    width: 85%;
+    margin: 20px auto;
+    border: 2px dotted gray;
+}
+.big-img img{
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+.big-img .img-name{
+    height: 40px;
+    color: darkblue;
+    padding-left: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border-top: 2px dotted gray;
+}
+.choice-img{
+    margin-top: 5px;
+    border: 2px solid gray;
+    margin-right: 10px;
+    position: relative;
+}
+.choice-img img{
+    display: block;
+    margin: 2px auto;
+    height: 105px;
+    width: 95%;
+    object-fit: cover;
+}
+.choice-img .img-name{
+    height: 25px;
+    line-height: 25px;
+    color: darkblue;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.choice-img:hover{
+    filter: opacity(35%)
+}

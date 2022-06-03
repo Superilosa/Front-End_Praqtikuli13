@@ -1,0 +1,41 @@
+.container{
+    padding: 15px 20px;
+}
+
+.display{
+    width: 70%;
+    height: 500px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+.arrow{
+    height: 500px;
+    width: 15%;
+    background-color: rgba(30, 175, 180, 0.322);
+    line-height: 500px;
+    text-align: center;
+    font-size: 48px;
+    font-weight:bold;
+    color:green;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    box-sizing: border-box;
+}
+.arrow-left{
+    border-right: 2px solid black;
+    float: left;
+}
+.arrow-right{
+    border-left: 2px solid black;
+    float: right;
+}
+.display img{
+    width: 70%;
+    height: 500px;
+    object-fit: contain;
+}
+.arrow:hover{
+    color: orange;
+    background-color:rgba(5, 222, 230, 0.699)
+}

@@ -1,0 +1,69 @@
+.container{
+    padding: 2px 3vh;
+}
+.output-background{
+    width: 100%;
+    height: 46vh;
+    background-image: url(https://farm-advisory.eu/images/xslide1.jpg.pagespeed.ic.ZNgyHDGQHo.jpg);
+    background-position: center;
+}
+.output-line{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.square{
+    width: 60px;
+    height: 100px;
+    border: 4px solid black;
+    margin: 0 20px;
+    background-color: white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 80px;
+}
+.score{
+    height: 100px;
+    line-height: 100px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    color: darkslateblue;
+    transform: translateX(-16px);
+}
+.button-line{
+    width: 100%;
+    height: 19vh;
+    text-align: center;
+    line-height: 19vh;
+    background-image: url(http://thermal-edge.com/assets/1970/01/6_Environmental_Considerations_for_Industrial_Control_Panels.jpg);
+    background-position: center;
+    background-size:contain;
+}
+.button-line button{
+    height: 100px;
+    width: 300px;
+    background-image: url(https://e7.pngegg.com/pngimages/522/122/png-clipart-gold-button-button-free-cdr-rectangle.png);
+    background-position: center;
+    background-size: 440px;
+    font-size:22px;
+    color:darkcyan;
+    font-weight: bold;
+}
+.bottom-line{
+    height: 32vh;
+    background-image: url(https://thumbs.dreamstime.com/b/background-money-seamless-texture-one-hundred-dollar-bills-148960181.jpg);
+    background-position: center;
+    background-size:600px;
+    line-height: 32vh;
+}
+.balance{
+    margin: 0;
+    font-size: 72px;
+    color: blue;
+    margin-left: 200px;
+    font-weight: bold;
+    text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;
+}
