@@ -3,7 +3,12 @@ sqr = document.getElementsByClassName("square")
 score = document.getElementById("score")
 btn = document.getElementById("btn")
 colors = ["darkgray","black","blue","yellow","darkkhaki","lightgreen","greenyellow","red","purple","cyan"]
-bal = 0
+//initialize balance from local storage
+bal = parseFloat(localStorage.getItem("bal"))
+if(isNaN(bal)){
+    bal = 0
+}
+balance.innerText = "ბალანსი: "+bal+" ლ"
 
 enabled = true
 function generate(){
@@ -34,6 +39,7 @@ function generate(){
             score.innerText = tmp
         }
         bal += tmp
+        localStorage.setItem("bal",bal)
         setTimeout(function (){
             balance.innerText = "ბალანსი: "+bal+" ლ"
             score.innerText = ""
